@@ -1,0 +1,108 @@
+html body {
+padding:0;
+margin:0;
+background: linear-gradient(145deg, #53AFAC 45%, #399177 90%);
+height: 100vh;
+font-family: 'Questrial', sans-serif;
+}
+
+.place-for-guess-blocks {
+
+}
+
+.block {
+	height: 4rem;
+	width:4rem;
+	margin-left:0.5rem;
+	background-color:#A7B9B6;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter-in-block {
+font-size: 3rem;
+opacity:0;
+  -webkit-transition: opacity 2s; /* Safari prior 6.1 */
+  transition: opacity 2s;
+}
+
+.container-for-container {
+text-align:center;
+}
+
+.container-for-levels {
+background-color:#D0F5EF;
+width: 13rem;
+border-radius: 4px;
+color:#008B78;
+margin: 0 auto;
+}
+
+.left-side {
+	margin-right:1rem;
+
+
+}
+
+.right-side {
+	font-size: 1rem;
+	border:1px solid red;
+	line-height: 1.5rem;
+}
+
+.right-side p {
+	display:inline;
+	border:4px solid green;
+}
+
+#leave-number {
+padding:0; 
+margin:0;
+float:left;
+text-align: center;
+display:inline-block;
+font-size:2.5rem;
+line-height:1.7rem;
+}
+
+#under-number {
+	padding:0;
+	margin:0;
+
+}
+
+.level {
+	background-color:#D0F5EF;
+display:none;
+}
+
+.container-for-description {
+background-color: #D0F5EF;
+border-radius: 4px;
+}
+
+.description {
+color:#008B78;
+font-size:1.3rem;
+}
+
+.input-block {
+
+}
+
+.container-for-result {
+	height: 7rem;
+
+}
+
+.result {
+display:inline-block;
+font-size: 1.7rem;
+position:relative;
+left:-150px;
+opacity:0;
+color: #FFF0E8;
+font-color:#FFF0E8;
+padding:1rem;
+}
