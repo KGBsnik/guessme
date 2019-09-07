@@ -55,7 +55,6 @@ $.getJSON("./levels/3rd-grade.json", function(response) {
 //Transform response to array
 words = response.map(wordsArray => wordsArray)
 
-console.log(words);
 //When all thing is load - start the game
 startTheGame();
 })
@@ -84,7 +83,6 @@ $('.block').remove();
 randomWordAndDef = words[Math.floor(Math.random()* words.length)];
 
 wordForGame = randomWordAndDef.word;
-console.log('This is word for game - ' + wordForGame);
 
 //Put letters from random word to array and add hidden blocks on the screen 
 for (i = 0; i < wordForGame.length; i++) {
@@ -99,7 +97,6 @@ $('#container-for-blocks').append(createBlock);
 
 //good version
 let definition = randomWordAndDef.description;
-console.log('this is definition for random word - ' + definition);
 
 // the same action but in definition nothing change
 $('#description').text(definition);
