@@ -32,7 +32,7 @@ $("#user-guess").focus();
 }
 
 
-//Set the 'game win' function
+//Set the 'game-win' function
 function gameWin() {	
 	$('#user-guess').prop('disabled', true);
 	$("#submit-button").focus().text('Another round!');
